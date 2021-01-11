@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -254913202, guid: e9fbcdc0687a5e1499120a17871f1a02, type: 3}
+  m_Name: SliceConfigurationFile
+  m_EditorClassIdentifier: 
+  sliceConfiguration:
+    copyAllDetails: 1
+    copyAllTrees: 1
+    createPrefabs: 1
+    removeSlicesFromSceneAfterCreation: 0
+    disableEdgeBlending: 0
+    copyBaseLayer: 1
+    copyBaseTag: 1
+    dontSliceAlphamap: 0
+    copySplatTextures: 1
+    slicingGridColor: {r: 0, g: 0, b: 0, a: 1}
+    firstRow: 1
+    lastRow: 4
+    firstColumn: 1
+    lastColumn: 4
+    edgeBlendingWidth: 1
+    rowsOfSlices: 4
+    columnsOfSlices: 4
+    baseTerrainToSliceRatio: 4
+    normalizedXPosition: 0
+    normalizedZPosition: 0
+    gridYOffset: 0
+    sliceMethod: 0
+    staticGameObjectFlagsSetMethod: 0
+    staticEditorFlags: 0
+    sliceDataSaveFolder: /
+    prefabSaveFolder: /
+    sliceDataOutputBaseName: SliceData
+    sliceOutputBaseName: Slice
+    sampleTerrain: {fileID: 4238796778530608584, guid: 12db4681c419c394dab008ff87c8d270, type: 3}
+    sliceProcessors: []
+    inputNamingConvention: {fileID: 0}
+    outputNamingConvention: {fileID: 11400000, guid: 0d61cc13138b21a46933025021ab7c4e, type: 2}
+    copyTerrainTextureLayersExactly: 1
